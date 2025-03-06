@@ -1,1 +1,1 @@
-[{"email":"thomas@gmail.com","pass":"12345","isAdmin":false,"id":"6121199a36c24"},{"email":"titi@mail.fr","pass":"12345","isAdmin":false,"id":"752f0a7f2fb8a"},{"id":"1","email":"anthony@mail.fr","pass":"12345","isAdmin":true}]
+[{"email":"thomas@gmail.com","pass":"12345","isAdmin":true,"id":"6121199a36c24"}]

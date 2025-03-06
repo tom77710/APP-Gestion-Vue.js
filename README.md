@@ -18,6 +18,10 @@ Après l’exécution du script, vous devriez pouvoir accéder :
 Backend : http://localhost:3002
 Frontend : http://localhost:3000 (ou un autre port selon Nuxt)
 
+# Users Admin
+
+login : thomas@gmail.com
+mdp : 12345
 
 # Architecture 
 
