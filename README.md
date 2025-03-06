@@ -1,11 +1,26 @@
 # Gestion-Vue.js
 
+Voici un application en Vue.js avec Nuxt 3 pour la gestion de projet et de personne avec de IA gérérative.
+
+# Dérrage de l'application
+
 🔹 Donner les permissions et exécuter le script :
 
 Dans le terminal, exécutez ces commandes :
 
+------ Windows ------
+
 sh
 start.bat
+
+------ MacOS / Linux ------
+
+sh
+chmod +x start.sh
+
+puis 
+
+./start.sh
 
 🔹 Explication du script :
 
