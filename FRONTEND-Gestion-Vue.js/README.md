@@ -1,49 +1,28 @@
-# Gestion-Vue.js
+# Nuxt Minimal Starter
 
-🔹 Donner les permissions et exécuter le script :
+Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
-Dans le terminal, exécutez ces commandes :
+## Setup
 
-sh
-start.bat
+Make sure to install dependencies:
 
-🔹 Explication du script :
+```bash
+# npm
+npm install
 
-Il installe les dépendances (npm install) pour le backend et le frontend.
-Il lance le backend (npm start) et redirige la sortie vers backend.log pour éviter le blocage du terminal.
-Il démarre le frontend (npm run dev) et redirige la sortie vers frontend.log.
-nohup permet aux processus de continuer à tourner même après la fermeture du terminal.
-Après l’exécution du script, vous devriez pouvoir accéder :
+## Development Server
 
-Backend : http://localhost:3002
-Frontend : http://localhost:3000 (ou un autre port selon Nuxt)
+Start the development server on `http://localhost:3000`:
 
+```bash
+# npm
+npm run dev
+```
+
+Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
 
 # Architecture 
 
-GESTION-VUE.JS
-│
-│── .vscode
-│    └── settings.json
-│
-│──BACKEND-Gestion-Vue.js
-│    │ 
-│    │── api
-│    │   ├── projectsApi.js
-│    │   └── usersApi.js
-│    │
-│    │── db
-│    │   ├── projects.json
-│    │   └── users.json
-│    │
-│    │── entities
-│    │   ├── projects.js
-│    │   └── users.js
-│    │
-│    │── app.js
-│    │── package.json
-│    └── README.md
-│
 │──FRONTEND-Gestion-Vue.js
 │    │
 │    │── .nuxt
@@ -98,6 +77,3 @@ GESTION-VUE.JS
 │    │── package.json
 │    │── README.md
 │    └── tsconfig.json
-│
-│── README.md
-└──start.bat
